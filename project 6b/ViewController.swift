@@ -57,6 +57,7 @@ class ViewController: UIViewController {
         }
         
         
+        
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[label1]-[label2]-[label3]-[label4]-[label5]", options: [], metrics: nil, views: viewDictionary))
         
        
